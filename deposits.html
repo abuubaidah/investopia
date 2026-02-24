@@ -1,0 +1,727 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Investopia | Deposits</title>
+
+    
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.svg"
+      type="image/svg"
+    />
+
+    
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/iv-styles.css" />
+  </head>
+  <body class="iv-dashboard-page">
+    <div class="iv-preloader" aria-hidden="true">
+      <div class="iv-preloader-spinner"></div>
+    </div>
+    
+    <header
+      class="iv-header iv-header-bordered"
+      style="background: radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.16), transparent 45%), radial-gradient(circle at 85% 0%, rgba(255, 255, 255, 0.12), transparent 40%), linear-gradient(140deg, #0b3d31 0%, #0f6b53 55%, #082620 100%);"
+    >
+
+    <div class="iv-topbar">
+      <div class="iv-topbar-inner">
+        <div class="iv-topbar-left">
+          <span class="iv-topbar-item">Support 24/7</span>
+          <span class="iv-topbar-divider"></span>
+          <a class="iv-topbar-link" href="mailto:hello@investopia.com">hello@investopia.com</a>
+          <span class="iv-topbar-divider"></span>
+          <a class="iv-topbar-link" href="tel:+14155550140">+1 415 555 0140</a>
+        </div>
+        <div class="iv-topbar-right">
+          <a class="iv-topbar-link" href="login.html">Client Login</a>
+        </div>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo/logo.png" alt="Logo" />
+              </a>
+              <button class="navbar-toggler">
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+              </button>
+
+              <div class="navbar-collapse">
+                <ul id="nav" class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="iv-menu-scroll" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)">Pages</a>
+                    <ul class="iv-submenu">
+                      <li class="iv-submenu-item">
+                        <a href="about.html" class="iv-submenu-link">About</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="pricing.html" class="iv-submenu-link">Plans</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="plan-details.html" class="iv-submenu-link">Plan Details</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="plan-details-logged.html" class="iv-submenu-link">Plan Details Logged</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="plan-submission-success.html" class="iv-submenu-link">Plan Submission Success</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="blog-details.html" class="iv-submenu-link">Blog Details</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="latest-activity.html" class="iv-submenu-link">Latest Activity</a>
+                      </li>
+<li class="iv-submenu-item">
+                        <a href="contact.html" class="iv-submenu-link">Contact</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="login.html" class="iv-submenu-link">Sign In</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="signup.html" class="iv-submenu-link">Sign Up</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="404.html" class="iv-submenu-link">404 Page</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="javascript:void(0)">Dashboard</a>
+                    <ul class="iv-submenu">
+                      <li class="iv-submenu-item">
+                        <a href="dashboard.html" class="iv-submenu-link">Dashboard</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="investments.html" class="iv-submenu-link">Investments</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="deposits.html" class="iv-submenu-link">Deposits</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="withdrawals.html" class="iv-submenu-link">Withdrawals</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="bank-accounts.html" class="iv-submenu-link">Bank Accounts</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="kyc.html" class="iv-submenu-link">KYC</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="referrals.html" class="iv-submenu-link">Referrals</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="profile.html" class="iv-submenu-link">Profile</a>
+                      </li>
+                      <li class="iv-submenu-item">
+                        <a href="support.html" class="iv-submenu-link">Support</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="iv-menu-scroll" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="iv-menu-scroll" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="navbar-btn d-none d-sm-inline-block">
+                <a class="iv-main-btn iv-white-btn" href="javascript:void(0)">
+                  Start Investing
+                </a>
+              </div>
+            </nav>
+    </header>
+    
+
+    
+    <section id="dashboard" class="iv-dashboard">
+        <div class="iv-dashboard-shell">
+          <aside class="iv-dashboard-sidebar">
+            <div class="iv-dashboard-user">
+              <div class="iv-dashboard-avatar">AP</div>
+              <div>
+                <h4>Avery Patel</h4>
+                <span>Premium Investor</span>
+              </div>
+            </div>
+            <nav class="iv-dashboard-nav">
+              <a class="iv-dashboard-link" href="dashboard.html">
+                <i class="lni lni-dashboard"></i>Dashboard
+              </a>
+              <a class="iv-dashboard-link" href="investments.html">
+                <i class="lni lni-investment"></i>Investments
+              </a>
+              <a class="iv-dashboard-link active" href="deposits.html">
+                <i class="lni lni-wallet"></i>Deposits
+              </a>
+              <a class="iv-dashboard-link" href="withdrawals.html">
+                <i class="lni lni-coin"></i>Withdrawals
+              </a>
+              <a class="iv-dashboard-link" href="bank-accounts.html">
+                <i class="lni lni-credit-cards"></i>Bank Accounts
+              </a>
+              <a class="iv-dashboard-link" href="kyc.html">
+                <i class="lni lni-checkmark-circle"></i>KYC
+              </a>
+              <a class="iv-dashboard-link" href="referrals.html">
+                <i class="lni lni-users"></i>Referrals
+              </a>
+              <a class="iv-dashboard-link" href="profile.html">
+                <i class="lni lni-user"></i>Profile
+              </a>
+              <a class="iv-dashboard-link" href="support.html">
+                <i class="lni lni-support"></i>Support
+              </a>
+            </nav>
+            <div class="iv-dashboard-logout">
+              <a class="iv-main-btn iv-border-btn" href="login.html">
+                Logout
+              </a>
+            </div>
+          </aside>
+
+          <main class="iv-dashboard-main">
+                        <div class="iv-dashboard-breadcrumb">
+              <div class="iv-dashboard-breadcrumb-content">
+                <span class="iv-dashboard-kicker">Deposits</span>
+                <h1>Add Balance</h1>
+                <p>Add funds and monitor deposit records.</p>
+              </div>
+              <ol class="iv-dashboard-breadcrumb-list">
+                <li><a href="dashboard.html">Overview</a></li>
+                <li aria-current="page">Add Balance</li>
+              </ol>
+            </div><div class="row g-4">
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <div class="iv-dashboard-metric">
+                  <span class="iv-dashboard-label">Total Balance</span>
+                  <span class="iv-dashboard-value">$24,860.00</span>
+                  <span class="iv-dashboard-note">+4.2% this month</span>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <div class="iv-dashboard-metric">
+                  <span class="iv-dashboard-label">Active Plans</span>
+                  <span class="iv-dashboard-value">3</span>
+                  <span class="iv-dashboard-note">2 fixed &middot; 1 compound</span>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <div class="iv-dashboard-metric">
+                  <span class="iv-dashboard-label">Next Payout</span>
+                  <span class="iv-dashboard-value">12h 24m</span>
+                  <span class="iv-dashboard-note">Plan 02 &middot; Daily</span>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <div class="iv-dashboard-metric">
+                  <span class="iv-dashboard-label">Total Profit</span>
+                  <span class="iv-dashboard-value">$3,420.50</span>
+                  <span class="iv-dashboard-note">Last 30 days</span>
+                </div>
+              </div>
+            </div>
+<div class="row g-4">
+              <div class="col-lg-12">
+                <div class="iv-dashboard-card iv-deposit-panel">
+                  <div class="iv-dashboard-card-head">
+                    <div>
+                      <h3><i class="lni lni-wallet"></i> Add Balance / Make a Deposit</h3>
+                      <span>Choose instant payment or manual deposit</span>
+                    </div>
+                  </div>
+
+                  <div class="row g-4 align-items-start">
+                    <div class="col-xxl-6 col-xl-12 col-lg-12">
+                      <div class="iv-method-list">
+                          <label class="iv-method-option">
+                            <input type="radio" name="gatewayMethod" data-method-name="Card / Stripe" data-method-speed="Instant" data-fee-rate="2.9" data-fee-flat="0.30" data-min="10" data-max="5000" checked>
+                            <div class="iv-method-card iv-method-card-wide">
+                              <h5>
+                                <img src="assets/images/payment-logo/happyinvest.png" alt="Card / Stripe" class="iv-gateway-logo">
+                                <span class="visually-hidden">Card / Stripe</span>
+                              </h5>
+                              <span>Instant</span>
+                              <div class="iv-method-meta">
+                                <span>Fee: 2.9% + $0.30</span>
+                                <span>Min: $10</span>
+                                <span>Max: $5,000</span>
+                              </div>
+                              <span class="iv-method-select-control"><span class="iv-method-select-text">Select</span></span>
+                            </div>
+                          </label>
+                          <label class="iv-method-option">
+                            <input type="radio" name="gatewayMethod" data-method-name="PayPal" data-method-speed="Instant" data-fee-rate="3.5" data-fee-flat="0" data-min="5" data-max="3000">
+                            <div class="iv-method-card iv-method-card-wide">
+                              <h5>
+                                <img src="assets/images/payment-logo/PayPal.svg" alt="PayPal" class="iv-gateway-logo">
+                                <span class="visually-hidden">PayPal</span>
+                              </h5>
+                              <span>Instant</span>
+                              <div class="iv-method-meta">
+                                <span>Fee: 3.5%</span>
+                                <span>Min: $5</span>
+                                <span>Max: $3,000</span>
+                              </div>
+                              <span class="iv-method-select-control"><span class="iv-method-select-text">Select</span></span>
+                            </div>
+                          </label>
+                          <label class="iv-method-option">
+                            <input type="radio" name="gatewayMethod" data-method-name="USDT (TRC20)" data-method-speed="5-30 mins" data-fee-rate="1" data-fee-flat="0" data-min="20" data-max="10000">
+                            <div class="iv-method-card iv-method-card-wide">
+                              <h5>
+                                <img src="assets/images/payment-logo/happyinvest.png" alt="USDT (TRC20)" class="iv-gateway-logo">
+                                <span class="visually-hidden">USDT (TRC20)</span>
+                              </h5>
+                              <span>5-30 mins</span>
+                              <div class="iv-method-meta">
+                                <span>Fee: 1%</span>
+                                <span>Min: $20</span>
+                                <span>Max: $10,000</span>
+                              </div>
+                              <span class="iv-method-select-control"><span class="iv-method-select-text">Select</span></span>
+                            </div>
+                          </label>
+                          <label class="iv-method-option">
+                            <input type="radio" name="gatewayMethod" data-method-name="Bank Transfer" data-method-speed="1-24 hours" data-fee-rate="0" data-fee-flat="0" data-min="50" data-max="">
+                            <div class="iv-method-card iv-method-card-wide">
+                              <h5>
+                                <img src="assets/images/payment-logo/happyinvest.png" alt="Bank Transfer" class="iv-gateway-logo">
+                                <span class="visually-hidden">Bank Transfer</span>
+                              </h5>
+                              <span>1-24 hours</span>
+                              <div class="iv-method-meta">
+                                <span>Fee: 0%</span>
+                                <span>Min: $50</span>
+                                <span>No Max</span>
+                              </div>
+                              <span class="iv-method-select-control"><span class="iv-method-select-text">Select</span></span>
+                            </div>
+                          </label>
+                          <label class="iv-method-option">
+                            <input type="radio" name="gatewayMethod" data-method-name="USDT (ERC20)" data-method-speed="8-45 mins" data-fee-rate="1.4" data-fee-flat="0" data-min="25" data-max="15000">
+                            <div class="iv-method-card iv-method-card-wide">
+                              <h5>
+                                <img src="assets/images/payment-logo/happyinvest.png" alt="USDT (ERC20)" class="iv-gateway-logo">
+                                <span class="visually-hidden">USDT (ERC20)</span>
+                              </h5>
+                              <span>8-45 mins</span>
+                              <div class="iv-method-meta">
+                                <span>Fee: 1.4%</span>
+                                <span>Min: $25</span>
+                                <span>Max: $15,000</span>
+                              </div>
+                              <span class="iv-method-select-control"><span class="iv-method-select-text">Select</span></span>
+                            </div>
+                          </label>
+                          <label class="iv-method-option">
+                            <input type="radio" name="gatewayMethod" data-method-name="USDC" data-method-speed="5-20 mins" data-fee-rate="0.9" data-fee-flat="0" data-min="20" data-max="12000">
+                            <div class="iv-method-card iv-method-card-wide">
+                              <h5>
+                                <img src="assets/images/payment-logo/happyinvest.png" alt="USDC" class="iv-gateway-logo">
+                                <span class="visually-hidden">USDC</span>
+                              </h5>
+                              <span>5-20 mins</span>
+                              <div class="iv-method-meta">
+                                <span>Fee: 0.9%</span>
+                                <span>Min: $20</span>
+                                <span>Max: $12,000</span>
+                              </div>
+                              <span class="iv-method-select-control"><span class="iv-method-select-text">Select</span></span>
+                            </div>
+                          </label>
+                          <label class="iv-method-option">
+                            <input type="radio" name="gatewayMethod" data-method-name="Perfect Money" data-method-speed="Instant" data-fee-rate="2.0" data-fee-flat="0" data-min="15" data-max="7000">
+                            <div class="iv-method-card iv-method-card-wide">
+                              <h5>
+                                <img src="assets/images/payment-logo/happyinvest.png" alt="Perfect Money" class="iv-gateway-logo">
+                                <span class="visually-hidden">Perfect Money</span>
+                              </h5>
+                              <span>Instant</span>
+                              <div class="iv-method-meta">
+                                <span>Fee: 2%</span>
+                                <span>Min: $15</span>
+                                <span>Max: $7,000</span>
+                              </div>
+                              <span class="iv-method-select-control"><span class="iv-method-select-text">Select</span></span>
+                            </div>
+                          </label>
+                          <label class="iv-method-option">
+                            <input type="radio" name="gatewayMethod" data-method-name="Skrill" data-method-speed="Instant" data-fee-rate="2.5" data-fee-flat="0" data-min="10" data-max="5000">
+                            <div class="iv-method-card iv-method-card-wide">
+                              <h5>
+                                <img src="assets/images/payment-logo/happyinvest.png" alt="Skrill" class="iv-gateway-logo">
+                                <span class="visually-hidden">Skrill</span>
+                              </h5>
+                              <span>Instant</span>
+                              <div class="iv-method-meta">
+                                <span>Fee: 2.5%</span>
+                                <span>Min: $10</span>
+                                <span>Max: $5,000</span>
+                              </div>
+                              <span class="iv-method-select-control"><span class="iv-method-select-text">Select</span></span>
+                            </div>
+                          </label>
+                          <label class="iv-method-option">
+                            <input type="radio" name="gatewayMethod" data-method-name="Neteller" data-method-speed="Instant" data-fee-rate="2.4" data-fee-flat="0" data-min="10" data-max="5000">
+                            <div class="iv-method-card iv-method-card-wide">
+                              <h5>
+                                <img src="assets/images/payment-logo/happyinvest.png" alt="Neteller" class="iv-gateway-logo">
+                                <span class="visually-hidden">Neteller</span>
+                              </h5>
+                              <span>Instant</span>
+                              <div class="iv-method-meta">
+                                <span>Fee: 2.4%</span>
+                                <span>Min: $10</span>
+                                <span>Max: $5,000</span>
+                              </div>
+                              <span class="iv-method-select-control"><span class="iv-method-select-text">Select</span></span>
+                            </div>
+                          </label>
+                        </div>
+</div>
+
+                    <div class="col-xxl-6 col-xl-12 col-lg-12">
+                      <form class="iv-dashboard-form iv-deposit-form">
+                        <label class="form-label">Amount</label>
+                          <input type="text" id="depositAmount" class="form-control" value="$100.00">
+                          <p class="iv-amount-limits" id="calcLimitsInline">Limits: $10.00 - $5,000.00</p>
+                          <div class="iv-quick-amounts">
+                            <button type="button" class="iv-quick-amount">$10</button>
+                            <button type="button" class="iv-quick-amount">$25</button>
+                            <button type="button" class="iv-quick-amount">$50</button>
+                            <button type="button" class="iv-quick-amount is-active">$100</button>
+                            <button type="button" class="iv-quick-amount">$500</button>
+                          </div>
+
+                          <label class="form-label">Breakdown</label>
+                          <div class="iv-breakdown-box">
+                            <div class="table-responsive">
+                              <table class="iv-breakdown-table">
+                                <tbody>
+                                  <tr>
+                                    <th>Selected plan</th>
+                                    <td id="calcPlan">PLAN 01 - 2.5% Daily for 30 days</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Selected method</th>
+                                    <td id="calcMethod">Card / Stripe (Instant)</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Amount</th>
+                                    <td id="calcAmountValue">$100.00</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Fee rate</th>
+                                    <td id="calcFeeRate">2.9%</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Flat fee</th>
+                                    <td id="calcFlatFee">$0.30</td>
+                                  </tr>
+                                  <tr>
+                                    <th>Fee</th>
+                                    <td id="calcFee">$3.20</td>
+                                  </tr>
+                                  <tr>
+                                    <th>You'll receive</th>
+                                    <td id="calcNet">$96.80</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+
+                          <div class="iv-reference-note">
+                            <label class="form-label">Reference note (optional)</label>
+                            <input type="text" class="form-control" placeholder="Optional note">
+                          </div>
+
+                          <button type="button" class="iv-main-btn">Continue to Pay</button>
+                        
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+<div class="row g-4">
+              <div class="col-lg-12">
+                <div class="iv-dashboard-card iv-dashboard-table">
+                  <div class="iv-dashboard-card-head">
+                    <div>
+                      <h3>Deposit History</h3>
+                      <span>Latest activity</span>
+                    </div>
+                    <a class="iv-dashboard-link-inline iv-dashboard-link-pill" href="javascript:void(0)">
+                      Export
+                    </a>
+                  </div>
+                  <div class="table-responsive">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Date</th>
+                          <th>Method</th>
+                          <th>Amount</th>
+                          <th>Status</th>
+                          <th>Reference</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Feb 05, 2026</td>
+                          <td>Bank transfer</td>
+                          <td>$2,000.00</td>
+                          <td><span class="iv-status is-positive">Completed</span></td>
+                          <td>DEP-48201</td>
+                        </tr>
+                        <tr>
+                          <td>Feb 01, 2026</td>
+                          <td>Card payment</td>
+                          <td>$600.00</td>
+                          <td><span class="iv-status is-positive">Completed</span></td>
+                          <td>DEP-48177</td>
+                        </tr>
+                        <tr>
+                          <td>Jan 28, 2026</td>
+                          <td>USDT</td>
+                          <td>$500.00</td>
+                          <td><span class="iv-status is-neutral">Pending</span></td>
+                          <td>DEP-48121</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="iv-dashboard-pagination">
+                    <nav aria-label="Table pagination">
+                      <ul class="pagination pagination-sm mb-0">
+                        <li class="page-item disabled"><a class="page-link" href="javascript:void(0)">Prev</a></li>
+                        <li class="page-item active"><a class="page-link" href="javascript:void(0)">1</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0)">Next</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </main>
+        </div>
+    </section>
+    
+
+        
+    <footer class="iv-footer iv-footer-compact">
+      <div class="container">
+        <div
+          class="iv-footer-social"
+          role="navigation"
+          aria-labelledby="footer-social-heading"
+        >
+          <span id="footer-social-heading" class="visually-hidden">
+            Follow us on social media
+          </span>
+          <a href="https://twitter.com/MusharofChy" aria-label="Facebook">
+            <i class="lni lni-facebook-filled"></i>
+          </a>
+          <a href="https://twitter.com/MusharofChy" aria-label="Twitter">
+            <i class="lni lni-twitter-filled"></i>
+          </a>
+          <a href="https://twitter.com/MusharofChy" aria-label="Instagram">
+            <i class="lni lni-instagram-filled"></i>
+          </a>
+          <a href="https://twitter.com/MusharofChy" aria-label="LinkedIn">
+            <i class="lni lni-linkedin-original"></i>
+          </a>
+        </div>
+        <hr class="iv-footer-break" />
+        <ul
+          class="iv-footer-links"
+          role="navigation"
+          aria-labelledby="footer-links-heading"
+        >
+          <li id="footer-links-heading" class="visually-hidden">Footer links</li>
+          <li><a href="index.html">Site Home</a></li>
+          <li><a href="pricing.html">Plans</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="iv-footer-copy">(c) 2026 Investopia. All rights reserved.</p>
+      </div>
+    </footer>
+    
+
+    
+    <a href="javascript:void(0)" class="back-to-top">
+      <i class="lni lni-chevron-up"> </i>
+    </a>
+    
+
+    
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <script>
+      (function () {
+        const amountInput = document.getElementById("depositAmount");
+        const methodRadios = Array.from(document.querySelectorAll('input[name="gatewayMethod"]'));
+        const quickAmounts = Array.from(document.querySelectorAll(".iv-quick-amount"));
+        const calcPlan = document.getElementById("calcPlan");
+        const calcMethod = document.getElementById("calcMethod");
+        const calcAmountValue = document.getElementById("calcAmountValue");
+        const calcFeeRate = document.getElementById("calcFeeRate");
+        const calcFlatFee = document.getElementById("calcFlatFee");
+        const calcLimitsInline = document.getElementById("calcLimitsInline");
+        const calcFee = document.getElementById("calcFee");
+        const calcNet = document.getElementById("calcNet");
+        const urlParams = new URLSearchParams(window.location.search);
+        const planCatalog = {
+          "1": { code: "PLAN 01", name: "2.5% Daily for 30 days" },
+          "2": { code: "PLAN 02", name: "Momentum Max" },
+          "3": { code: "PLAN 03", name: "Quantum Growth" }
+        };
+        const selectedPlan = planCatalog[urlParams.get("plan")] || planCatalog["1"];
+
+        if (!amountInput || !methodRadios.length) {
+          return;
+        }
+
+        const toNumber = (value) => {
+          const parsed = parseFloat(String(value || "").replace(/[^0-9.]/g, ""));
+          return Number.isFinite(parsed) ? parsed : 0;
+        };
+
+        const formatCurrency = (value) =>
+          "$" + value.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+        const formatPercent = (value) => {
+          const trimmed = Number(value || 0);
+          return Number.isInteger(trimmed) ? `${trimmed}%` : `${trimmed.toFixed(2)}%`;
+        };
+
+        const selectedMethod = () => methodRadios.find((radio) => radio.checked) || methodRadios[0];
+
+        const updateSelectButtons = () => {
+          methodRadios.forEach((radio) => {
+            const text = radio.closest(".iv-method-option")?.querySelector(".iv-method-select-text");
+            if (text) {
+              text.textContent = radio.checked ? "Selected" : "Select";
+            }
+          });
+        };
+
+        const updateBreakdown = () => {
+          const method = selectedMethod();
+          if (!method) {
+            return;
+          }
+
+          const amount = toNumber(amountInput.value);
+          const feeRate = toNumber(method.dataset.feeRate);
+          const flatFee = toNumber(method.dataset.feeFlat);
+          const min = toNumber(method.dataset.min);
+          const maxValue = method.dataset.max;
+          const max = maxValue ? toNumber(maxValue) : null;
+          const fee = (amount * feeRate) / 100 + flatFee;
+          const net = Math.max(amount - fee, 0);
+
+          if (calcPlan && selectedPlan) {
+            calcPlan.textContent = `${selectedPlan.code} - ${selectedPlan.name}`;
+          }
+
+          if (calcMethod) {
+            calcMethod.textContent = `${method.dataset.methodName} (${method.dataset.methodSpeed})`;
+          }
+
+          if (calcAmountValue) calcAmountValue.textContent = formatCurrency(amount);
+          if (calcFeeRate) calcFeeRate.textContent = formatPercent(feeRate);
+          if (calcFlatFee) calcFlatFee.textContent = formatCurrency(flatFee);
+          if (calcLimitsInline) {
+            const limitsText = max
+              ? `${formatCurrency(min)} - ${formatCurrency(max)}`
+              : `Min ${formatCurrency(min)} / No Max`;
+            calcLimitsInline.textContent = `Limits: ${limitsText}`;
+          }
+          if (calcFee) calcFee.textContent = formatCurrency(fee);
+          if (calcNet) calcNet.textContent = formatCurrency(net);
+
+          updateSelectButtons();
+        };
+
+        const normalizeAmount = () => {
+          amountInput.value = formatCurrency(toNumber(amountInput.value));
+        };
+
+        const requestedAmount = toNumber(urlParams.get("amount"));
+        if (requestedAmount > 0) {
+          amountInput.value = requestedAmount.toFixed(2);
+          quickAmounts.forEach((item) => item.classList.remove("is-active"));
+        }
+
+        methodRadios.forEach((radio) => {
+          radio.addEventListener("change", updateBreakdown);
+        });
+
+        quickAmounts.forEach((button) => {
+          button.addEventListener("click", () => {
+            quickAmounts.forEach((item) => item.classList.remove("is-active"));
+            button.classList.add("is-active");
+            amountInput.value = button.textContent.trim();
+            updateBreakdown();
+            normalizeAmount();
+          });
+        });
+
+        amountInput.addEventListener("input", updateBreakdown);
+        amountInput.addEventListener("blur", normalizeAmount);
+
+        updateBreakdown();
+        normalizeAmount();
+      })();
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
